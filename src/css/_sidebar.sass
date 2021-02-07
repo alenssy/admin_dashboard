@@ -1,0 +1,64 @@
+.sidebar
+	background: $dark_bg
+	&__header
+		color: $main_side_color
+		display: flex
+		align-items: center
+		box-sizing: border-box
+		margin: px-rem(37) px-rem(32) px-rem(60) px-rem(32)
+		h2
+			font-size: px-rem(19) 
+			font-weight: 700
+			text-transform: capitalize
+			margin: 0
+		&--logo
+			width: px-rem(32)
+			height: px-rem(32)
+			background: $blue_color
+			border-radius: 50%
+			display: flex
+			align-items: center
+			justify-content: center
+			margin-right: px-rem(12)
+			img
+				width: 50%
+	&__menu
+		display: flex
+		flex-direction: column
+
+.menu__link
+	color: $main_side_color
+	font-size: px-rem(16)
+	line-height: px-rem(30)
+	border: none
+	width: 100%
+	padding: px-rem(20) px-rem(29) 
+	text-align: left
+	display: flex
+	align-items: center
+	background: transparent
+	cursor: pointer
+	border-left: 2px solid transparent
+	transition: 0.3s
+	&:focus
+		outline: 0
+	&--active, &:hover
+		background: $btn_hover
+		border-left-color: $color_active
+		color: $color_active
+		svg
+			path
+				fill: $color_active
+	svg
+		width: px-rem(16)
+		height: px-rem(16)
+		margin-right: px-rem(24)
+		path
+			fill: $main_side_color
+
+hr
+	width: 100%
+	border: none
+	border-top: 1px solid $main_side_color
+	padding: 0
+

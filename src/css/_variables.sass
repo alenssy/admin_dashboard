@@ -1,0 +1,39 @@
+$dark_bg: #363740
+$light_bg: #F7F8FC
+$main_side_color: #A4A6B3
+$blue_color: #3751FF
+$btn_hover: rgba(159,162,180,0.08)
+$color_active: #DDE2FF
+$dark_color: #252733
+$icon_color: #C5C7CD
+$border_header: #DFE0EB
+$main_overview_color: #9FA2B4
+$btn_bg_gray: #F0F1F7
+$btn_bg_yellow: #FEC400
+$btn_bg_gr-bl: #29CC97
+
+$base-font-size: 16
+
+@function strip-unit($number)
+	@if type-of($number) == 'number' and not unitless($number)
+		@return $number / ($number * 0 + 1)
+	@return $number
+
+@function px-rem($size, $base: $base-font-size)
+	$pxUnitless: strip-unit($size)
+	@return #{$pxUnitless / $base}rem
+
+body
+	font-family: 'Mulish', sans-serif
+	margin: 0
+
+.dashboard
+	display: grid 
+	grid-template-columns: 1fr 4fr
+	width: px-rem(1440)
+	margin: px-rem(30) auto
+
+
+
+
+

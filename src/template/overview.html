@@ -1,0 +1,128 @@
+<div class="overview">
+	<div class="overview__header">
+		<h1>Overview</h1>
+		<div class="overview__header--right">
+			<nav class="navbar navbar-light bg-light">
+				<div class="dropdown">
+					<form class="form-inline">
+						<button class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<svg class="header__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512.005 512.005;" xml:space="preserve"> <g> <g> <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667 S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6 c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z"/> </g> </g> </svg>
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						</div>
+					</form>
+				</div>
+				<button class="btn-outline-success notification__icon">
+					<svg class="header__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <g> <g> <path d="M467.812,431.851l-36.629-61.056c-16.917-28.181-25.856-60.459-25.856-93.312V224c0-67.52-45.056-124.629-106.667-143.04 V42.667C298.66,19.136,279.524,0,255.993,0s-42.667,19.136-42.667,42.667V80.96C151.716,99.371,106.66,156.48,106.66,224v53.483 c0,32.853-8.939,65.109-25.835,93.291l-36.629,61.056c-1.984,3.307-2.027,7.403-0.128,10.752c1.899,3.349,5.419,5.419,9.259,5.419 H458.66c3.84,0,7.381-2.069,9.28-5.397C469.839,439.275,469.775,435.136,467.812,431.851z"/> </g> </g> <g> <g> <path d="M188.815,469.333C200.847,494.464,226.319,512,255.993,512s55.147-17.536,67.179-42.667H188.815z"/> </g> </g> </svg>
+				</button>
+			</nav>
+			<p class="subpoint subpoint__dark">Jones Ferdinand</p>
+			<div class="user__photo">
+				<div class="user__photo--img"></div>
+			</div>
+		</div>
+	</div>
+	<button class="status__block status__unresolved">
+		<p class="status__block--name">Unresolved</p>
+		<p class="status__block--quant">60</p>
+	</button>
+	<button class="status__block status__block--active status__overdue">
+		<p class="status__block--name">Overdue</p>
+		<p class="status__block--quant">16</p>
+	</button>
+	<button class="status__block status__open">
+		<p class="status__block--name">Open</p>
+		<p class="status__block--quant">60</p>
+	</button>
+	<button class="status__block status__hold">
+		<p class="status__block--name">On hold</p>
+		<p class="status__block--quant">60</p>
+	</button>
+	<div class="trends">
+		<div class="trends__graph">
+			<h2>Today’s trends</h2>
+			<p class="subtitle">as of 25 May 2019, 09:41 PM</p>
+			<canvas id="myChart" width="686" height="450"></canvas>
+		</div>
+		<div class="trends__index">
+			<button class="status__block">
+				<p class="status__block--name">Resolved</p>
+				<p class="status__block--quant">449</p>
+			</button>
+			<button class="status__block">
+				<p class="status__block--name">Received</p>
+				<p class="status__block--quant">426</p>
+			</button>
+			<button class="status__block">
+				<p class="status__block--name">Average first response time</p>
+				<p class="status__block--quant">33m</p>
+			</button>
+			<button class="status__block">
+				<p class="status__block--name">Average response time</p>
+				<p class="status__block--quant">3h 8m</p>
+			</button>
+			<button class="status__block">
+				<p class="status__block--name">Resolution within SLA</p>
+				<p class="status__block--quant">94%</p>
+			</button>
+		</div>
+	</div>
+	<div class="tickets tickets__area">
+		<div class="tickets__header">
+			<a href="/" class="view__add">View details</a>
+			<h2>Unresolved tickets</h2>
+			<p class="subtitle">Group: <span class="subtitle__dark">Support</span></p>
+		</div>
+		<div class="status__block">
+			<p class="subpoint subpoint__dark subpoint__cap">Waiting on feature request</p>
+			<span class="tickets__quant">4238</span>
+		</div>
+		<div class="status__block">
+			<p class="subpoint subpoint__dark subpoint__cap">Awaiting customer response</p>
+			<span class="tickets__quant">1005</span>
+		</div>
+		<div class="status__block">
+			<p class="subpoint subpoint__dark subpoint__cap">Awaiting developer fix</p>
+			<span class="tickets__quant">914</span>
+		</div>
+		<div class="status__block">
+			<p class="subpoint subpoint__dark subpoint__cap">Pending</p>
+			<span class="tickets__quant">281</span>
+		</div>
+	</div>
+	<div class="tickets tasks__area">
+		<div class="tickets__header">
+			<a href="/" class="view__add">View details</a>
+			<h2>Tasks</h2>
+			<p class="subtitle">Today</p>
+		</div>
+		<div class="status__block">
+			<p class="subpoint subpoint__gray">Create new task</p>
+			<button class="tickets__btn tickets__btn--gray btn__add">
+				<svg height="448pt" viewBox="0 0 448 448" width="448pt" xmlns="http://www.w3.org/2000/svg"><path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/></svg>
+			</button>
+		</div>
+		<div class="status__block">
+			<div class="custom-control custom-checkbox">
+  				<input type="checkbox" class="custom-control-input" id="customCheck1">
+  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck1">Finish ticket update</label>
+			</div>
+			<button class="tickets__btn tickets__btn--yellow">Urgent</button>
+		</div>
+		<div class="status__block">
+			<div class="custom-control custom-checkbox">
+  				<input type="checkbox" class="custom-control-input" id="customCheck2">
+  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck2">Create new ticket example</label>
+			</div>
+			<button class="tickets__btn tickets__btn--gr-bl">New</button>
+		</div>
+		<div class="status__block">
+			<div class="custom-control custom-checkbox">
+  				<input type="checkbox" class="custom-control-input" id="customCheck3">
+  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck3">Update ticket report</label>
+			</div>
+			<button class="tickets__btn tickets__btn--gray">Default</button>
+		</div>
+	</div>
+</div>

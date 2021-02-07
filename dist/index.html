@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css\bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Admin Dashboard</title>
+</head>
+<body>
+	<div class="dashboard">
+		<div class="sidebar">
+			<div class="sidebar__header">
+				<div class="sidebar__header--logo">
+					<img src="images/icons/cube.png" alt="logo"></img>
+				</div>
+				<h2>Dashboard kit</h2>
+			</div>
+			<nav class="sidebar__menu">
+				<button class="menu__link menu__link--active">
+					<svg  enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m271.225 0v240.775h240.775c-7.491-129.477-111.298-233.284-240.775-240.775z"/><path d="m241.225 255.775v-255.775c-134.443 7.779-241.225 119.397-241.225 255.775 0 141.415 114.81 256.225 256.225 256.225 65.306 0 124.932-24.5 170.221-64.791l-180.828-180.827c-2.813-2.813-4.393-6.628-4.393-10.607z"/><path d="m447.659 425.996c37.183-41.796 60.903-95.806 64.341-155.221h-219.562z"/></g></svg>
+				Overview
+				</button>
+				<button class="menu__link">
+					<svg enable-background="new 0 0 508.495 508.495" height="512" viewBox="0 0 508.495 508.495" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m151.938 102.708h-135.938c-8.836 0-16 7.163-16 16v81.104c0 8.837 7.164 16 16 16 21.193 0 38.435 17.242 38.435 38.436s-17.242 38.434-38.435 38.434c-8.836 0-16 7.163-16 16v81.105c0 8.837 7.164 16 16 16h135.938z"/><path d="m492.495 215.812c8.836 0 16-7.163 16-16v-81.104c0-8.837-7.164-16-16-16h-308.557v303.08h308.557c8.836 0 16-7.163 16-16v-81.105c0-8.837-7.164-16-16-16-21.193 0-38.435-17.241-38.435-38.435s17.242-38.436 38.435-38.436z"/></svg>
+				Tickets</button>
+				<button class="menu__link">
+					<svg enable-background="new 0 0 511.98 511.98" height="512" viewBox="0 0 511.98 511.98" width="512" xmlns="http://www.w3.org/2000/svg"><g><path d="m139.702 317.377c13.119 11.113 21.818 26.169 24.961 42.604h76.327v-106.899c-25.849-6.678-45-30.195-45-58.102h30c0 16.542 13.458 30 30 30s30-13.458 30-30h30c0 27.906-19.151 51.424-45 58.102v106.898h76.344c3.177-16.431 11.959-31.562 25.202-42.823 40.326-34.29 63.454-84.289 63.454-137.177 0-161.352-196.781-240.593-308.844-125.467-73.136 75.138-66.884 195.57 12.556 262.864z"/><path d="m255.99 511.98c33.084 0 60-26.916 60-60h-120c0 33.084 26.916 60 60 60z"/><path d="m165.99 389.98h180v32h-180z"/></g></svg>
+				Ideas</button>
+				<button class="menu__link">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;" xml:space="preserve">
+					<g><g><path d="M438.09,273.32h-39.596c4.036,11.05,6.241,22.975,6.241,35.404v149.65c0,5.182-0.902,10.156-2.543,14.782h65.461 c24.453,0,44.346-19.894,44.346-44.346v-81.581C512,306.476,478.844,273.32,438.09,273.32z"/></g></g><g><g> <path d="M107.265,308.725c0-12.43,2.205-24.354,6.241-35.404H73.91c-40.754,0-73.91,33.156-73.91,73.91v81.581 c0,24.452,19.893,44.346,44.346,44.346h65.462c-1.641-4.628-2.543-9.601-2.543-14.783V308.725z"/></g></g><g><g> <path d="M301.261,234.815h-90.522c-40.754,0-73.91,33.156-73.91,73.91v149.65c0,8.163,6.618,14.782,14.782,14.782h208.778 c8.164,0,14.782-6.618,14.782-14.782v-149.65C375.171,267.971,342.015,234.815,301.261,234.815z"/> </g> </g> <g> <g> <path d="M256,38.84c-49.012,0-88.886,39.874-88.886,88.887c0,33.245,18.349,62.28,45.447,77.524 c12.853,7.23,27.671,11.362,43.439,11.362c15.768,0,30.586-4.132,43.439-11.362c27.099-15.244,45.447-44.28,45.447-77.524 C344.886,78.715,305.012,38.84,256,38.84z"/> </g> </g> <g> <g> <path d="M99.918,121.689c-36.655,0-66.475,29.82-66.475,66.475c0,36.655,29.82,66.475,66.475,66.475 c9.298,0,18.152-1.926,26.195-5.388c13.906-5.987,25.372-16.585,32.467-29.86c4.98-9.317,7.813-19.946,7.813-31.227 C166.393,151.51,136.573,121.689,99.918,121.689z"/> </g> </g> <g> <g> <path d="M412.082,121.689c-36.655,0-66.475,29.82-66.475,66.475c0,11.282,2.833,21.911,7.813,31.227 c7.095,13.276,18.561,23.874,32.467,29.86c8.043,3.462,16.897,5.388,26.195,5.388c36.655,0,66.475-29.82,66.475-66.475 C478.557,151.509,448.737,121.689,412.082,121.689z"/> </g> </g> </svg>
+				Contacts</button>
+				<button class="menu__link">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					viewBox="0 0 206.262 206.262" style="enable-background:new 0 0 206.262 206.262;" xml:space="preserve">
+					<path d="M197.547,165.558v33.204c0,4.143-3.358,7.5-7.5,7.5H16.215c-4.142,0-7.5-3.357-7.5-7.5v-33.204
+					c0-14.646,8.724-27.637,22.253-33.185l32.874-16.326c1.828-0.907,3.947-1.029,5.869-0.342c1.921,0.689,3.479,2.133,4.313,3.996
+					l14.599,32.62l2.45-8.202l-2.929-7.158c-0.946-2.313-0.679-4.945,0.714-7.021c1.393-2.074,3.728-3.319,6.227-3.319h16.091
+					c2.499,0,4.834,1.245,6.227,3.319c1.393,2.075,1.661,4.707,0.714,7.021l-2.928,7.158l2.45,8.202l14.599-32.62
+					c0.834-1.863,2.391-3.307,4.313-3.996c1.922-0.688,4.041-0.564,5.869,0.342l32.874,16.326
+					C188.823,137.921,197.547,150.911,197.547,165.558z M141.755,62.062C141.755,62.062,141.517,61.995,141.755,62.062L141.755,62.062z
+					M155.6,71.988c-3.259,12.462-10.642,16.199-15.501,17.277c-2.76,5.372-7.938,14.603-13.208,19.521
+					c-2.416,2.255-5.516,4.141-9.214,5.608c-4.635,1.839-9.53,2.771-14.546,2.771s-9.911-0.933-14.547-2.771
+					c-3.698-1.468-6.798-3.354-9.213-5.608c-5.27-4.919-10.449-14.149-13.208-19.521c-4.858-1.078-12.242-4.815-15.5-17.277
+					c-1.919-7.339-1.36-13.425,1.663-18.09c1.026-1.583,2.207-2.795,3.387-3.722c0.045-1.588,0.166-3.49,0.403-5.59
+					c0.01-0.095,0.008-0.189,0.021-0.284c0.015-0.104,0.035-0.216,0.05-0.322c0.974-7.967,3.737-18.723,11.213-27.583
+					c2.134-2.529,4.452-4.668,6.847-6.476C81.082,4.05,90.101,0,101.765,0c0.448,0,0.901,0.01,1.357,0.021c0.002,0,0.007,0,0.009,0
+					c0.167,0,1.041,0.007,2.44,0.122c30.101,1.967,41.339,24.276,43.134,36.331c1.319,5.369,1.747,10.252,1.846,13.702
+					c1.181,0.927,2.361,2.139,3.387,3.722C156.96,58.563,157.519,64.649,155.6,71.988z M135.59,54.02l-0.075-0.006
+					c0.005-0.064,0.249-3.447-0.316-8.154c-3.33,0.229-7.555,0.434-12.051,0.434c-11.165,0-19.338-1.215-24.986-3.715
+					c-4.616-2.043-8.387-4.315-11.381-6.461c-1.066,1.96-2.373,3.912-3.958,5.624c-4.042,4.365-8.663,7.148-12.108,8.798
+					c-0.065,2.11,0.026,3.428,0.03,3.474c0.325,3.732-2.15,7.103-5.749,7.949c-0.311,0.247-0.909,2.081,0.176,6.23
+					c1.039,3.972,2.72,6.379,4.516,6.484c0.661-0.199,1.303-0.295,1.92-0.295c2.68,0,4.898,1.789,6.18,4.547
+					c2.503,5.376,7.927,15.262,11.816,18.892c1.182,1.103,3.07,2.143,5.41,2.967c5.234,1.844,10.994,1.844,16.228,0
+					c2.341-0.824,4.23-1.864,5.413-2.968c3.904-3.645,9.319-13.521,11.815-18.892c1.575-3.389,4.564-5.312,8.087-4.256
+					c1.833-0.134,3.498-2.535,4.53-6.48c0.962-3.679,0.679-5.182,0.667-6.132c-0.003-0.232,0.012-0.19,0.017-0.116
+					C142.402,58.012,139.564,54.365,135.59,54.02z"/>
+					</svg>
+				Agents</button>
+				<button class="menu__link">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+					width="459.319px" height="459.319px" viewBox="0 0 459.319 459.319" style="enable-background:new 0 0 459.319 459.319;"
+					xml:space="preserve">
+					<g>
+						<path d="M94.924,366.674h312.874c0.958,0,1.886-0.136,2.778-0.349c0.071,0,0.13,0.012,0.201,0.012
+						c6.679,0,12.105-5.42,12.105-12.104V12.105C422.883,5.423,417.456,0,410.777,0h-2.955H114.284H94.941
+						c-32.22,0-58.428,26.214-58.428,58.425c0,0.432,0.085,0.842,0.127,1.259c-0.042,29.755-0.411,303.166-0.042,339.109
+						c-0.023,0.703-0.109,1.389-0.109,2.099c0,30.973,24.252,56.329,54.757,58.245c0.612,0.094,1.212,0.183,1.847,0.183h317.683
+						c6.679,0,12.105-5.42,12.105-12.105v-45.565c0-6.68-5.427-12.105-12.105-12.105s-12.105,5.426-12.105,12.105v33.461H94.924
+						c-18.395,0-33.411-14.605-34.149-32.817c0.018-0.325,0.077-0.632,0.071-0.963c-0.012-0.532-0.03-1.359-0.042-2.459
+						C61.862,380.948,76.739,366.674,94.924,366.674z M103.178,58.425c0-6.682,5.423-12.105,12.105-12.105s12.105,5.423,12.105,12.105
+						V304.31c0,6.679-5.423,12.105-12.105,12.105s-12.105-5.427-12.105-12.105V58.425z"/>
+					</svg>
+				Articles</button>
+				<hr>
+				<button class="menu__link">
+					<svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m22.683 9.394-1.88-.239c-.155-.477-.346-.937-.569-1.374l1.161-1.495c.47-.605.415-1.459-.122-1.979l-1.575-1.575c-.525-.542-1.379-.596-1.985-.127l-1.493 1.161c-.437-.223-.897-.414-1.375-.569l-.239-1.877c-.09-.753-.729-1.32-1.486-1.32h-2.24c-.757 0-1.396.567-1.486 1.317l-.239 1.88c-.478.155-.938.345-1.375.569l-1.494-1.161c-.604-.469-1.458-.415-1.979.122l-1.575 1.574c-.542.526-.597 1.38-.127 1.986l1.161 1.494c-.224.437-.414.897-.569 1.374l-1.877.239c-.753.09-1.32.729-1.32 1.486v2.24c0 .757.567 1.396 1.317 1.486l1.88.239c.155.477.346.937.569 1.374l-1.161 1.495c-.47.605-.415 1.459.122 1.979l1.575 1.575c.526.541 1.379.595 1.985.126l1.494-1.161c.437.224.897.415 1.374.569l.239 1.876c.09.755.729 1.322 1.486 1.322h2.24c.757 0 1.396-.567 1.486-1.317l.239-1.88c.477-.155.937-.346 1.374-.569l1.495 1.161c.605.47 1.459.415 1.979-.122l1.575-1.575c.542-.526.597-1.379.127-1.985l-1.161-1.494c.224-.437.415-.897.569-1.374l1.876-.239c.753-.09 1.32-.729 1.32-1.486v-2.24c.001-.757-.566-1.396-1.316-1.486zm-10.683 7.606c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"/></svg>
+				Settings</button>
+				<button class="menu__link">
+					<svg enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m337.903 358.822 23.413-37.992 42.252-14.41 4.681-44.377 31.789-31.295-15.114-42.006 15.114-42.007-31.788-31.295-4.681-44.376-42.252-14.41-23.413-37.993-44.285 5.347-37.619-24.008-37.619 24.01-44.284-5.347-23.413 37.992-42.252 14.41-4.681 44.376-31.789 31.295 15.114 42.007-15.114 42.007 31.788 31.294 4.681 44.377 42.252 14.41 23.413 37.992 44.285-5.346 37.619 24.009 37.619-24.009zm-211.332-170.079c0-71.367 58.062-129.429 129.429-129.429s129.429 58.062 129.429 129.429-58.062 129.429-129.429 129.429-129.429-58.062-129.429-129.429z"/><path d="m256 89.333c-54.815 0-99.41 44.595-99.41 99.41s44.595 99.41 99.41 99.41 99.41-44.595 99.41-99.41-44.595-99.41-99.41-99.41z"/><path d="m211.299 384.568-52.68 6.36-27.833-45.167-9.462-3.226-40.813 127.566 73.475-4.041 57.485 45.94 33.828-105.732z"/><path d="m381.214 345.762-27.834 45.166-52.679-6.36-34 21.7 33.828 105.732 57.485-45.94 73.475 4.041-40.813-127.566z"/></svg>
+				Subscription</button>
+			</nav>
+		</div>
+		<div class="overview">
+			<div class="overview__header">
+				<h1>Overview</h1>
+				<div class="overview__header--right">
+					<nav class="navbar navbar-light bg-light">
+						<div class="dropdown">
+							<form class="form-inline">
+								<button class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<svg class="header__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512.005 512.005;" xml:space="preserve"> <g> <g> <path d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667 S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6 c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z"/> </g> </g> </svg>
+								</button>
+								<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+									<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+								</div>
+							</form>
+						</div>
+						<button class="btn-outline-success notification__icon">
+							<svg class="header__icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <g> <g> <path d="M467.812,431.851l-36.629-61.056c-16.917-28.181-25.856-60.459-25.856-93.312V224c0-67.52-45.056-124.629-106.667-143.04 V42.667C298.66,19.136,279.524,0,255.993,0s-42.667,19.136-42.667,42.667V80.96C151.716,99.371,106.66,156.48,106.66,224v53.483 c0,32.853-8.939,65.109-25.835,93.291l-36.629,61.056c-1.984,3.307-2.027,7.403-0.128,10.752c1.899,3.349,5.419,5.419,9.259,5.419 H458.66c3.84,0,7.381-2.069,9.28-5.397C469.839,439.275,469.775,435.136,467.812,431.851z"/> </g> </g> <g> <g> <path d="M188.815,469.333C200.847,494.464,226.319,512,255.993,512s55.147-17.536,67.179-42.667H188.815z"/> </g> </g> </svg>
+						</button>
+					</nav>
+					<p class="subpoint subpoint__dark">Jones Ferdinand</p>
+					<div class="user__photo">
+						<div class="user__photo--img"></div>
+					</div>
+				</div>
+			</div>
+			<button class="status__block status__unresolved">
+				<p class="status__block--name">Unresolved</p>
+				<p class="status__block--quant">60</p>
+			</button>
+			<button class="status__block status__block--active status__overdue">
+				<p class="status__block--name">Overdue</p>
+				<p class="status__block--quant">16</p>
+			</button>
+			<button class="status__block status__open">
+				<p class="status__block--name">Open</p>
+				<p class="status__block--quant">60</p>
+			</button>
+			<button class="status__block status__hold">
+				<p class="status__block--name">On hold</p>
+				<p class="status__block--quant">60</p>
+			</button>
+			<div class="trends">
+				<div class="trends__graph">
+					<h2>Today’s trends</h2>
+					<p class="subtitle">as of 25 May 2019, 09:41 PM</p>
+					<canvas id="myChart" width="686" height="450"></canvas>
+				</div>
+				<div class="trends__index">
+					<button class="status__block">
+						<p class="status__block--name">Resolved</p>
+						<p class="status__block--quant">449</p>
+					</button>
+					<button class="status__block">
+						<p class="status__block--name">Received</p>
+						<p class="status__block--quant">426</p>
+					</button>
+					<button class="status__block">
+						<p class="status__block--name">Average first response time</p>
+						<p class="status__block--quant">33m</p>
+					</button>
+					<button class="status__block">
+						<p class="status__block--name">Average response time</p>
+						<p class="status__block--quant">3h 8m</p>
+					</button>
+					<button class="status__block">
+						<p class="status__block--name">Resolution within SLA</p>
+						<p class="status__block--quant">94%</p>
+					</button>
+				</div>
+			</div>
+			<div class="tickets tickets__area">
+				<div class="tickets__header">
+					<a href="/" class="view__add">View details</a>
+					<h2>Unresolved tickets</h2>
+					<p class="subtitle">Group: <span class="subtitle__dark">Support</span></p>
+				</div>
+				<div class="status__block">
+					<p class="subpoint subpoint__dark subpoint__cap">Waiting on feature request</p>
+					<span class="tickets__quant">4238</span>
+				</div>
+				<div class="status__block">
+					<p class="subpoint subpoint__dark subpoint__cap">Awaiting customer response</p>
+					<span class="tickets__quant">1005</span>
+				</div>
+				<div class="status__block">
+					<p class="subpoint subpoint__dark subpoint__cap">Awaiting developer fix</p>
+					<span class="tickets__quant">914</span>
+				</div>
+				<div class="status__block">
+					<p class="subpoint subpoint__dark subpoint__cap">Pending</p>
+					<span class="tickets__quant">281</span>
+				</div>
+			</div>
+			<div class="tickets tasks__area">
+				<div class="tickets__header">
+					<a href="/" class="view__add">View details</a>
+					<h2>Tasks</h2>
+					<p class="subtitle">Today</p>
+				</div>
+				<div class="status__block">
+					<p class="subpoint subpoint__gray">Create new task</p>
+					<button class="tickets__btn tickets__btn--gray btn__add">
+						<svg height="448pt" viewBox="0 0 448 448" width="448pt" xmlns="http://www.w3.org/2000/svg"><path d="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0"/></svg>
+					</button>
+				</div>
+				<div class="status__block">
+					<div class="custom-control custom-checkbox">
+		  				<input type="checkbox" class="custom-control-input" id="customCheck1">
+		  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck1">Finish ticket update</label>
+					</div>
+					<button class="tickets__btn tickets__btn--yellow">Urgent</button>
+				</div>
+				<div class="status__block">
+					<div class="custom-control custom-checkbox">
+		  				<input type="checkbox" class="custom-control-input" id="customCheck2">
+		  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck2">Create new ticket example</label>
+					</div>
+					<button class="tickets__btn tickets__btn--gr-bl">New</button>
+				</div>
+				<div class="status__block">
+					<div class="custom-control custom-checkbox">
+		  				<input type="checkbox" class="custom-control-input" id="customCheck3">
+		  				<label class="custom-control-label subpoint subpoint__dark" for="customCheck3">Update ticket report</label>
+					</div>
+					<button class="tickets__btn tickets__btn--gray">Default</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+	<script src="js\script.js"></script>
+	<script src="js\jquery.min.js"></script>
+	<script src="js\bootstrap.bundle.min.js"></script>
+</body>
+</html>
