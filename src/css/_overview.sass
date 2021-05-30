@@ -40,7 +40,7 @@ input:focus::placeholder
 	path
 		fill: $icon_color
 
-.btn-outline-success
+.btn__nav
 	background-color: transparent!important
 	border-color: transparent!important
 	position: relative
@@ -53,29 +53,14 @@ input:focus::placeholder
 		border-color: transparent !important
 		box-shadow: none !important
 
-.dropdown-toggle::after
+.input__search
 	display: none
-
-.dropdown-menu
-	background: transparent
+	color: $dark_color
 	border: none
-	position: absolute
-	top: - px-rem(15)
-	left: - px-rem(210)
-
-.form-control
-	background-color: transparent
-	border-top: transparent
-	border-left: transparent
-	border-right: transparent
-	border-radius: 0
+	border-bottom: 2px solid $main_side_color
+	background: transparent
 	&:focus
-		box-shadow: none
-		background-color: transparent
-		border-bottom: 1px solid $blue_color
-
-.mr-sm-2
-	padding-bottom: 0
+		outline: none
 
 .notification__icon
 	position: relative
@@ -271,3 +256,6 @@ input:focus::placeholder
 
 .custom-checkbox .custom-control-label::after
 	top: px-rem(2.5)
+
+.show
+	display: flex

@@ -1,7 +1,6 @@
 {
   "name": "admin_dashboard",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,14 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "jquery": "^3.5.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenssy/admin_dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alenssy/admin_dashboard/issues"
+  },
+  "homepage": "https://github.com/alenssy/admin_dashboard#readme",
+  "description": ""
 }
